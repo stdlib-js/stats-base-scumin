@@ -48,7 +48,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import scumin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-scumin@esm/index.mjs';
+import scumin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-scumin@v0.2.2-esm/index.mjs';
 ```
 
 #### scumin( N, x, strideX, y, strideY )
@@ -164,7 +164,7 @@ scumin.ndarray( 4, x, 2, 1, y, -1, y.length-1 );
 import randu from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-randu@esm/index.mjs';
 import round from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-round@esm/index.mjs';
 import Float32Array from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-float32@esm/index.mjs';
-import scumin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-scumin@esm/index.mjs';
+import scumin from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-base-scumin@v0.2.2-esm/index.mjs';
 
 var y;
 var x;
